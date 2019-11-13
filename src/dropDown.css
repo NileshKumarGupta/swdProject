@@ -1,7 +1,6 @@
 .dropDownMenu{
     position: relative;
     margin: auto;
-    background-color: grey;
     text-align: center;
     border-radius: 5px;
 }
@@ -12,6 +11,13 @@
     margin-top: -10px;
     padding: 0px;
     padding-top: 23px;
-    background-color: grey;
     list-style-type: none;
+    max-height: 10vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.dropDownMenu ul li{
+    margin-bottom: 5px;
+    line-height: normal;
 }

@@ -7,6 +7,7 @@ function  assignFunctions(){
         instance.childNodes[1].onclick = () =>{
             instance.childNodes[3].style["position"] = "absolute";
             instance.childNodes[3].style["display"] = "block";
+            instance.childNodes[3].style["width"] = "100%";
         }
 
         for(let child of instance.childNodes[3].childNodes){

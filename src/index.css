@@ -27,11 +27,20 @@ section{
     width: 80%;
     line-height: 2em;
     margin-top: 8px;
+    background-color: grey;
+}
+
+#selectDepartment ul{
+    background-color: grey;
 }
 
 .courseList{
     list-style-type: none;
-    font-size: 1.2em;
+    font-size: 1.3em;
+}
+
+.courseList li{
+    margin-bottom: 10px;
 }
 
 #selectSemester{
@@ -40,6 +49,12 @@ section{
     height: 2em;
     line-height: 2em;
     margin-top: 1vh;
+    font-size: 1.5em;
+    background-color: grey;
+}
+
+#selectSemester ul{
+    background-color: grey;
 }
 
 #addCourseButtonContainer{

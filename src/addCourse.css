@@ -1,0 +1,46 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+
+#courseDetails{
+    height: 20vh;
+    width: 70%;
+    background-color: burlywood;
+    color: black;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+#getInformation{
+    padding: 0.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+#getInformation .dropDownMenu{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+    height: 5vh;
+    line-height: 5vh;
+}
+
+#getInformation .dropDownMenu ul{
+    background-color: white;
+}
+
+#addCourseButton{
+    display: block;
+    border: none;
+    height: 5vh;
+    width: 25%;
+    font-size: 1.2em;
+    margin: auto;
+    margin-top: 2vh;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
