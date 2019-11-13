@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../src/header.css">
+    <link rel="stylesheet" href="../src/index.css">
+    <link rel="stylesheet" href="../src/timeTable.css">
+    <link rel="stylesheet" href="../src/dropDown.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        Will put something here soon;
+    </header>    
+    <section>
+        <div class="coursesAdded">
+            <div class="dropDownMenu" id="selectDepartment">
+                <span>Computer Science</span>
+                <ul>
+                    <li class="">Dummy Department</li>
+                    <li class="">Dummy Department</li>
+                    <li class="">Dummy Department</li>
+                    <li class="">Dummy Department</li>
+                </ul>
+            </div>
+            <hr>
+            <ul class="courseList">
+                <li>Dummy Course</li>   <!--Clicking on one of these should open the same page as addCourse.html with course details taken from here-->
+                <li>Dummy Course</li>
+                <li>Dummy Course</li>
+            </ul>
+            <!-- Would like to fetch the course data from departemnt, not yet implemented -->
+        </div>
+        <div>
+            <div class="dropDownMenu" id="selectSemester">
+                <span>1-1</span>
+                <ul>
+                    <li class="">2-1</li>
+                    <li class="">3-1</li>
+                    <li class="">4-1</li>
+                </ul>
+            </div>
+            <div class="timeTable">
+
+            </div>
+        </div>
+    </section>
+    <div id="addCourseButtonContainer">
+        <a href="addCourse.html" id="addCourseButton">Add Course</a>
+    </div>
+    
+    <!-- Postioning of the below scripts matter -->
+
+    <script type="text/javascript" src="../src/classes.js"></script>
+    <script type="text/javascript" src="../src/timeTable.js"></script>
+    <script type="text/javascript" src="../src/dropDown.js"></script>
+    <script type="text/javascript" src="../src/index.js"></script>
+</body>
+</html>
