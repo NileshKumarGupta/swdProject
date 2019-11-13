@@ -23,7 +23,7 @@ function  assignFunctions(){
                 }
                     
                 instance.childNodes[3].style["position"] = "";
-                instance.childNodcdes[3].style["display"] = "none";
+                instance.childNodes[3].style["display"] = "none";
             }
         }
     }

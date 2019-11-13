@@ -1,19 +1,30 @@
 body{
     width: 90%;
     margin: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: dark;
 }
 
 #courseDetails{
+    padding-top: 0.2em;
     height: 20vh;
     width: 70%;
     background-color: burlywood;
     color: black;
     font-size: 1.5em;
     border-radius: 5px;
+    text-align: center;
+}
+
+#courseDetails p{
+    margin: 0.8em;
 }
 
 #getInformation{
-    padding: 0.5em;
+    border-radius: 15px;
+    padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 5px;
@@ -43,4 +54,135 @@ body{
     background-color: green;
     color: white;
     text-align: center;
+}
+
+#sections{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-left: 0.5em;
+}
+
+.addSection{
+    width: 100%;
+    height: 5vh;
+    font-size: 1.5em;
+    margin-top: 1em;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 5px;
+    line-height: 5vh;
+    padding-left: 5px;
+}
+
+.addDummySection{
+    display: none;
+    background-color: aliceblue;
+    padding: 1em;
+    padding-left: 5px;
+    padding-right: 0.1em;
+    width: 100%;
+    font-size:1.3em;
+    padding-bottom: 3em;
+}
+
+.addDummySection span input{
+    width: 2em;
+}
+
+.addDummySection #instructorName{
+    float: left;
+    height: 4vh;
+    width: 40%;
+    margin-right: 3%;
+}
+
+.addDummySection .hours{
+    width: 40%;
+    margin-right: 2%;
+}
+
+.addDummySection .dropDownMenu{
+    float: right;
+    height: 4vh;
+    width: 50%;
+    background-color: tomato;
+    color: white;
+    line-height: 4vh;
+}
+
+.addDummySection .dropDownMenu ul{
+    background-color: tomato;
+    color: white;
+}
+
+.days{
+    clear: both;
+    width: 100%;
+    height: 8vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 1em;
+}
+
+.days input{
+    height: 0.5em;
+    margin-top: 5px;
+}
+
+.addDummySection button{
+    float: right;
+    border: none;
+    height: 4vh;
+    width: 40%;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#verifySectionButton{
+    background-color: yellow;
+    color: black;
+}
+
+#addSectionButton{
+    background-color: green;
+    color: white;
+}
+
+
+.dummySection{
+    display: none;
+    padding-left: 5px;
+    padding-right: 0.1em;
+    width: 100%;
+    font-size:1.3em;
+    padding-bottom: 0.2em;
+    background-color: beige;
+}
+
+.dummySection p button{
+    border: none;
+    height: 3em;
+    width: 30%;
+    text-align: center;
+    margin-left: 1em;
+    border-radius: 5px;
+}
+
+.deleteSection{
+    background-color: red;
+    color: white;
+}
+
+.modifySection{
+    background-color: yellow;
+}
+
+.dummySection p{
+    padding-top: 0.5em;
+    margin: 10px;
+    padding: 0px;
 }

@@ -41,11 +41,51 @@
         </div>
         <button id="addCourseButton">Add Course</button>
     </section>
+    <section id="sections">
+        <div>
+            <div class="addSection">
+                Add Ssction
+            </div>
+            <div class="addDummySection">
+                <span>Section <input type="text"></span>
+                <hr>
+                <input type="text" placeholder="Enter Instructors Name" id="instructorName">
+                <div class="dropDownMenu">
+                    <span>LT1</span>
+                    <ul>
+                        <li>C403</li>
+                        <li>DLT8</li>
+                    </ul>
+                </div>
+                <div class="days">
+                    <input type="checkbox">Monday<input type="checkbox">Tuesday<input type="checkbox">Wednesday<input type="checkbox">Thursday<input type="checkbox">Friday<input type="checkbox">Saturday</div>
+                <div>
+                    <input type="text" id="startingHour" class="hours" placeholder="Enter starting hour">
+                    <input type="text" id="endingHour" class="hours" placeholder="Enter ending hour">
+                </div>
+                <div>
+                    <button id="addSectionButton">Add Section</button>
+                    <button id="verifySectionButton">Verify Section</button>
+                </div>
+            </div>
+            <div class="dummySection">
+                <p>Section <button class="modifySection">Modify Section</button> <button class="deleteSection">Delete Section</button></p>
+                <hr>
+                <p>Instructor: </p>
+                <p>Days: </p>
+                <p>Time: </p>
+                <p>ClassRoom: </p>
+            </div>
+        </div>
+        <div class="timeTable">
 
-
+        </div>        
+    </section>
     <script type="text/javascript" src="../src/classes.js"></script>
     <script type="text/javascript" src="../src/timeTable.js"></script>
     <script type="text/javascript" src="../src/dropDown.js"></script>
-    <script type="text/javascript" src="../src/index.js"></script>
+    <script type="text/javascript" src="../src/addCourse.js"></script>
 </body>
 </html>
+
+<!-- If time then make hours as checkbox input with dropdown -->

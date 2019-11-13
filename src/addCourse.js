@@ -11,9 +11,12 @@ const dummySection = document.querySelector(".dummySection");
 assignFunctions();
 
 let course = [];
+console.log(addCourseButton);
 
 addCourseButton.onclick = () => {
-    let courseName = getInformation.childNodes[1].childNodes[1].value;
+    console.log("hey there");
+    console.log(getInformation.childNodes[1]);
+    let courseName = getInformation.childNodes[1].value;
     let departmentName = getInformation.childNodes[3].childNodes[1].innerHTML;
     let [year, semester] = getInformation.childNodes[5].childNodes[1].innerHTML.split('-');
     let courseIC = getInformation.childNodes[7].childNodes[1].innerHTML;
