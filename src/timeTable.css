@@ -1,0 +1,12 @@
+.timeTable{
+    width: 100%;
+    height: 56vh;
+    display: grid;
+    grid-template-columns: [timeDay] 8fr [Monday] 12fr [Tuesday] 12fr [Wednesday] 12fr [Thursday] 12fr [Friday] 12fr [Saturday] 12fr;
+    grid-template-rows: [timeDay] 5fr [h1] 10fr [h2] 10fr [h3] 10fr [h4] 10fr [h5] 10fr [h6] 10fr [h7] 10fr [h8] 10fr [h9] 10fr [h10] 10fr;
+}
+
+.timeTable div{
+    place-self: center;
+    text-align: center;
+}
